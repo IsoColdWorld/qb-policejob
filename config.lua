@@ -17,11 +17,11 @@ Config.LicenseRank = 2
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.Locations = {
     ["duty"] = {
-        [1] = vector3(440.085, -974.924, 30.689),
+        [1] = vector3(441.22, -981.96, 30.69),
         [2] = vector3(-449.811, 6012.909, 31.815),
     },
     ["vehicle"] = {
-        [1] = vector4(448.159, -1017.41, 28.562, 90.654),
+        [1] = vector4(458.89, -993.22, 25.7, 25.95),
         [2] = vector4(471.13, -1024.05, 28.17, 274.5),
         [3] = vector4(-455.39, 6002.02, 31.34, 87.93),
     },
@@ -37,7 +37,7 @@ Config.Locations = {
         [2] = vector4(-475.43, 5988.353, 31.716, 31.34),
     },
     ["armory"] = {
-        [1] = vector3(462.23, -981.12, 30.68),
+        [1] = vector3(482.49, -996.02, 30.69),
     },
     ["trash"] = {
         [1] = vector3(439.0907, -976.746, 30.776),
@@ -388,6 +388,15 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 17,
+            authorizedJobGrades = {0, 1, 2, 3, 4}
+        },
+        [18] = {
+            name = "specialbadge",
+            price = 0,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 18,
             authorizedJobGrades = {0, 1, 2, 3, 4}
         }
     }
