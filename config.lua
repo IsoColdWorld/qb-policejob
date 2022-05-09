@@ -391,7 +391,7 @@ Config.Items = {
             authorizedJobGrades = {0, 1, 2, 3, 4}
         },
         [18] = {
-            name = "specialbadge",
+            name = "pdbadge",
             price = 0,
             amount = 50,
             info = {},
